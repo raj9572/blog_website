@@ -1,0 +1,25 @@
+.View_blog{
+width: 100%;
+height: 90vh;
+box-sizing: border-box;
+}
+
+ .View_blog .view_container{
+     border: 2px solid red;
+     width: 100%;
+     height: 100%;
+     overflow: scroll;
+     padding: 10px 20px;
+ }
+ .View_blog .view_container .view_img{
+    width: 100%;
+    height: 400px;
+ }
+ .View_blog .view_container .view_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+
+

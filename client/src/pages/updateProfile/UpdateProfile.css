@@ -1,0 +1,36 @@
+.UpdateProfile{
+    width: 100%;
+    height: 80vh;
+    padding: 6rem;
+}
+.UpdateProfile .update-container{
+    border: 1px solid saddlebrown;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 6rem;
+
+}
+
+.UpdateProfile .update-container .left_side{
+    text-align: center;
+}
+.UpdateProfile .update-container .left_side .profileInput{
+    display: none;
+}
+
+.UpdateProfile .update-container .right_side{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;
+}
+.UpdateProfile .update-container .right_side input{
+    padding: 3px 8px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid gray;
+
+}
